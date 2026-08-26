@@ -46,6 +46,16 @@ vim.opt.cinoptions:append("L0") -- allow macros to be indented
 
 -- set function arg, param, etc. indenting to 4 spaces
 
+-- Filetype mapping
+vim.filetype.add({
+    extension = {
+        h = "c",
+        c = "c",
+        hpp = "cpp",
+        cpp = "cpp",
+    },
+})
+
 vim.api.nvim_create_autocmd("FileType", {
     pattern = { "c", "cpp" },
     callback = function()
