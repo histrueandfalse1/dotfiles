@@ -1,0 +1,18 @@
+# Title & Window Appearance
+title = "Terminal"
+macos-titlebar-style = transparent
+macos-icon = chalkboard
+
+# Colors & Color Support
+theme = Catppuccin Macchiato
+term = xterm-256color
+
+# Font
+font-family = "JetBrainsMono Nerd Font"
+font-size = 14
+
+# Padding & UI Tweaks
+window-padding-x = 12
+window-padding-y = 12
+cursor-style = block
+background-opacity = 0.95
