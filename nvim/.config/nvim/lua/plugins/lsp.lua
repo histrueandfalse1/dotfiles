@@ -17,6 +17,7 @@ return {
         -- 2. Add custom server settings if needed (e.g. clangd flags)
         vim.lsp.config('clangd', {
             cmd = { "clangd", "--background-index", "--clang-tidy" },
+            root_markers = { "compile_commands.json" },
         })
 
         -- 3. Enable language servers using Neovim 0.11+ native API
